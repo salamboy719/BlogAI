@@ -21,7 +21,7 @@ generation_config = {
 }
 
 model = genai.GenerativeModel(
-    model_name="gemini-2.0-flash-exp-image-generation",
+    model_name="gemini-2.0-flash",
     generation_config=generation_config,
     system_instruction= """You are a content assistant that generates professional blog posts based on a given topic, tone, and word count. If requested, also generate image prompts that match the blog content.  
 
